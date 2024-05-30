@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student_Details</title>
+</head>
+<body bgcolor="grey" text="brown">
+      
+    <foam action="http://127.0.0.1:5500/response.html">
+        <fieldset>
+            <legend >PERSONAL DETAILS</legend>
+
+        <label for="Fname">FIRST NAME</label>
+        <input type="text" id="Fname"  name="Fname" required placeholder="surname"> <br><br>
+        <label for="Lname">LAST NAME</label>
+        <input type="text" id="Lname" name="Lname" required placeholder="john"> <br><br>
+        <label for ="age">AGE</label>
+        <input type="number" id="age" name="age" required placeholder="EX-21"> <br><br>
+        <label for="dob">DOB</label>
+        <input type="date"  id="dob" name="dob" required placeholder="EX-01/11/2001"> <br><br>
+        <label for="email">EMAIL</label>
+        <input type="email" id="email" name="email" required placeholder="abe@gmail.com"> <br><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>EDUCATIONAL DETAILS</legend>
+
+        <label for="dept">DEPARTMENT</label> <br><br>
+        <label for="css">CSS</label>
+        <input type="radio" id="css" name="DEPARTMENT"><br><br>
+        <label for="civil">CIVIL</label>
+        <input type="radio" id="civil" name="DEPARTMENT"><br><br>
+        <label for="mech">MECH</label>
+        <input type="radio" id="mech" name="DEPARTMENT"><br><br>
+        <label for="ece">ECE</label>
+        <input type="radio" id="ece" name="DEPARTMENT"><br><br>
+        <label for="passedout">YEAR OF PASSED</label>
+        <input list="passedout" id="yop" name="yop"><br><br>
+        <datalist id="passedout">
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option >2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+            <option>2024</option>
+        </datalist>
+        <label for="skill">SKILL SET</label><br><br>
+        <label for="html">HTML</label>
+        <input type="checkbox" id="html" name="html"> <br><br>
+        <label for="css">CSS</label>
+        <input type="checkbox" id="css" name="css"><br><br>
+        <label for="react js">REACT JS</label>
+        <input type="checkbox" id="react js" name="react js"><br><br>
+        <label for="java script">JAVA SCRIPT</label>
+        <input type="checkbox" id="java script" name="java script"><br><br>
+    </fieldset>
+     <a href="http://127.0.0.1:5500/response.html">
+        <input type="submit">
+     </a>
+</body>
+</html>

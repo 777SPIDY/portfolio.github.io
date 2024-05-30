@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+<style>
+    .a{
+    border: 3px solid white;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    background-color: red;
+    animation-name:ref;
+    animation-duration: 10s;
+    position: relative;
+    animation-iteration-count: infinite;
+
+}
+
+.b{
+    border: 3px solid white;
+    border-radius: 50px;
+    width: 40px;
+    height: 90px;
+    background-color: red;
+    animation-name:ref;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+@keyframes ref {
+    0%{background-color: blue;left:0% ;}
+    10%{background-color: green;left: 40%;}
+    20%{background-color: red;left:0%;}
+    30%{background-color: yellow;left: 40%;}
+    40%{background-color: blueviolet;left:0%;}
+    50%{background-color: aliceblue;left: 40%;}
+    60%{background-color: aquamarine;left:0%;}
+    70%{background-color:grey;left: 40%;}
+    80%{background-color: brown;left:0%;}
+    90%{background-color: black;left: 40%;}
+    100%{background-color: chocolate;left:0%;}
+}
+</style>
+</head>
+<body>
+   
+    <h1 class="a"></h1>
+    <h1 class="a"></h1>
+    <h1 class="a"></h1>
+    <h1 class="b"></h1>
+    <h1 class="b"></h1>
+    <h1 class="b"></h1>
+    
+</body>
+</html>
